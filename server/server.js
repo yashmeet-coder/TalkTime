@@ -8,7 +8,7 @@ let users = [];
 
 const socketIO = require("socket.io")(http, {
     cors: {
-        origin: "https://regal-ganache-4e59f0.netlify.app"
+        origin: "*",
     }
 })
 
